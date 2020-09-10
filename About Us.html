@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Portfolio</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="page.css">
+	 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Caslon+Display&family=PT+Serif:ital@1&family=Tangerine&display=swap" rel="stylesheet">
+	  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	  <style>
+	  	.container
+{
+	
+	width: 100%;
+	height: 600px;
+	margin: 0px;
+	padding: 0px;
+	
+	background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/image7.jpeg");
+	  		background-repeat: no-repeat;
+	  		background-size: cover;
+	  		background-position: center;
+	  		
+	}
+		.title{
+	  		color: white;
+	  		font-size: 30px;
+	  		text-align: center;
+	  		padding-top: 10%;
+
+	  	}
+	  	.container-fluid{
+	  		width: 100%;
+	  		height: 100vh;
+	  		margin-top: 0px;
+	  	}
+	  	.border1{
+	  		width: 100%;
+	  		border: 0px solid ,rgba(0,0,0,0.1);
+	  		
+
+	  		
+	  	}
+	  	.border1 tr ,td{
+	  		border-collapse: collapse;
+	  		border: none;
+	  	}
+	  	.col1 ,.col2 ,.col3 {
+	  		border: 0px solid ,rgba(0,0,0,0.1);
+	  		box-shadow:  10px 15px rgba(0,0,0,0.4);
+	  		color: white;
+	  		padding: 10px;
+	  		margin-top: 160px;
+	  	}
+
+
+	  	.col1{
+	  		width:380px;
+	  		height: 350px;
+	  		color: white;
+	  		background-image:  linear-gradient(rgba(0,0,0,0),rgb(0,0,0,0.5));
+	  		margin-left: 200px;
+
+	  		font-size: 25px;
+	  		line-height: 35px;
+	  		}	  	
+
+	  	.col2{
+	  		width: 380px;
+	  		height: 350px;
+	  		font-size: 25px;
+	  		line-height: 35px;
+	  		margin-left: 15px;
+	  		
+	  		background-image:   linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5));
+
+	  	}
+	  	.col3{
+	  		width:380px;
+	  		color: white;
+	  		height: 350px;
+	  		font-size: 25px;
+	  		line-height: 35px;
+	  		background-image:   linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5));
+	  		margin-left: 15px;
+	  		margin-right: 120px;
+	  	}
+	  	.choose{
+	  		margin-top: 300px;
+	  		height: 700px;
+	  		width: 100%;
+	  		background-image: linear-gradient( #FEFCFF,#E5E4E2);
+	  	}
+	  	.choose2{
+	  		 width: 700px;
+	  		height: 600px;
+	  		background-image:  linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("images/about.jpeg");
+	  		background-repeat: no-repeat;
+	  		background-size: cover;
+	  		background-position: center;
+	  	}
+	  	.choose3{
+	  		margin: 0px;
+	  		height: 700px;
+	  		width: 800px;
+	  	}
+	  	.choose4{
+	  		margin-top: 30px;
+	  		height:550px; 
+	  		width:600px;
+	  		background-color: white;
+	  		margin-left: 100px;
+	  		padding: 20px;
+	  		box-shadow: 5px 10px rgba(0,0,0,0.2);
+
+
+	  	}
+	
+	  	.joins {
+	width: 100%;
+	height: 550px;
+	padding-top: 0px;
+	
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("images/image2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	/*padding: 20px;*/
+     margin-top: 200px;
+}
+
+.join{
+	width: 60%;
+	height: 120px;
+	text-align: center;
+	
+}
+
+.join h1{
+	/*margin-top: 100px;*/
+	font-size:40px;
+	color: white;
+	line-height: 50px;
+	padding-top: 50px;
+	margin-left: 450px;
+
+}
+.number{
+	width: 500px;
+	height: 120px;
+	
+	margin-left: 450px;
+	
+	border:3px cyan;
+
+	color: white; 
+	text-align: center;
+	padding-top: 4px;
+	margin-top: 25px;
+	
+}
+.no{
+	background-color:rgb(0,0,0,.3);  
+	width: 250px;
+	height: 70px;
+	color: white;
+	
+	border-radius: 20px;
+	border:3px solid cyan;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	
+}
+.no a{
+	text-decoration: none;
+	color: white;
+}
+#particles-js{
+	width: 100%;
+	height: 420px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.foot{
+	  		width: 100%;
+	  		height: 300px;
+	  		background:#002929;
+
+	  		
+	  		
+
+	  	}
+	  	.cols1{
+	  		width:300px;
+	  		
+	  		margin-top: 20px;
+	  		color: white;
+	  		margin-left: 200px;
+
+	  		font-size: 20px;
+	  		line-height: 35px;
+	  		}	  	
+
+	  	.cols2{
+	  		width: 300px;
+	  		margin-left: 230px;
+	  		font-size: 20px;
+	  		line-height: 35px;
+	  		list-style: none;
+	  		color: white;
+	  		margin-top: 20px;
+	  		
+	  		
+	  		
+
+	  	}
+	  	.cols3{
+	  		width:300px;
+	  		
+	  		
+	  		font-size: 20px;
+	  		line-height: 35px;
+	  		color: white;
+	  		margin-left: 160px;
+	  		margin-right: 10px;
+	  		margin-top: 20px;
+	  	}
+	  	.navs2{
+	  		display: inline-flex;
+	  		
+	  	}
+	  	.navs2 li{
+	  		list-style: none;
+	  		margin-right: 30px;
+	  		
+	  	}
+	  	.navs2 li a{
+	  		text-decoration: none;
+	  		color: white;
+	  	}
+	  	
+	  	.navs li{
+	  		list-style: none;
+
+	  	}
+	  	.navs li a{
+	  		text-decoration: none;
+	  		color: white;
+	  	}
+	  	hr{
+	  		border: 1px solid cyan;
+	  		margin: 20px 30px;
+	  	}
+	  	.copyright{
+	  		color: white;
+	  		text-align: center;
+	  	}
+	  </style>
+	</head>
+	<body>
+		<div class="container">
+		
+			
+			
+				<input type="checkbox" id="check">
+	<label for="check">
+		<i class="fa fa-bars" id="btn" ></i>
+		<i class="fa fa-times" id="cancel"></i>
+	</label>
+	
+	<div class="sidebar">
+		<header>MENU</header>
+		<ul>
+			<li><a href="index.html"> Home</a></li>
+			<li><a href="#active"> About us</a></li>
+			<li><a href="Services.html"> Services</a></li>
+
+				<li><a href="Blogs.html">Blogs</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				
+		</ul>
+		
+	</div>
+	<div class="title">
+			<h1>ABOUT US</h1>
+			
+		</div>
+
+<!--<div class="container-fluid">-->
+  <table class="border1">
+  	<tr>
+  		<td>
+  			<div class="col1">
+  				<h2 style="padding-bottom: 15px; text-align: center; color:#50EBEC;">Who Are We</h2>
+<p>Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Ut elit tellus, luctus nec ullam corper mattis, pulvinar. Etiam erat lectus, finibus eget commodo quis, tinci dunt eget leo. Nullam quis vulpu tate orci, ac accum san quam.</p>
+  			</div>
+  			
+  		</td>
+  		<td>
+  			<div class="col2">
+  				<h2 style="padding-bottom: 15px; text-align: center; color:#50EBEC;">Our Mission</h2>
+<p >Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Ut elit tellus, luctus nec ullam corper mattis, pulvinar. Etiam erat lectus, finibus eget commodo quis, tinci dunt eget leo. Nullam quis vulpu tate orci, ac accum san quam.</p>
+  			</div>
+  			
+  		</td>
+  		<td>
+  			<div class="col3"><h2 style="padding-bottom: 15px; text-align: center; color:#50EBEC;">What We Do</h2>
+<p>Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Ut elit tellus, luctus nec ullam corper mattis, pulvinar. Etiam erat lectus, finibus eget commodo quis, tinci dunt eget leo. Nullam quis vulpu tate orci, ac accum san quam.</p></div>
+  			
+  		</td>
+  	</tr>
+  	
+  </table></div>
+  <div class="choose">
+  	<table class="choose1">
+  		<tr>
+  			<td>
+  				<div class="choose2" ></div>
+  			</td>
+  			<td>
+  				<div class="choose3">
+  					<h1 style="text-align: center;font-size: 40px; color: #151B54;
+  					padding-top: 20px;">Why Choose Us ?</h1>
+  			
+  				<div class="choose4">
+  					<h1 style=" color: #008080;">Bussiness Value</h1>
+  					<p style="font-size: 20px; padding-top: 10px; line-height: 28px;">Once you have cressed our doorstep, our R&D and BA experts milr to fully graspy your idea and makes ure we know that users really want . </p>
+  					<h1 style="padding-top: 20px; color: #008080;">Rapid Results</h1>
+  					<p style="font-size: 20px; padding-top: 10px;line-height: 28px;">To help you outrun the competition , we aim to shrink the gap between your idea a winning solution .A full package
+  					of our mobile app development services complete with rapid prototyping and agile process enables you to actively engage in the project and make smarter product decisions from day one.</p>
+  					<h1 style="padding-top: 20px;color: #008080;">100% Transparency</h1>
+  					<p style="font-size: 20px; padding-top: 10px;line-height: 28px;">By choosing our mobile app development solutions, not only do you stay in control and fully updated on the project status ,but your feedback is critical to continuous improvement.</p>
+  				</div>
+  			</div>
+  			</td>
+  		</tr>
+  	</table>
+  	
+  </div>
+<div class="joins">
+			
+		<div class="join">
+			<h1 >Let's Make Your Site<br>Fascinating!</h1>
+			
+			<div class="number">
+				
+		<button class="no"><a href="contact.html">Contact Us</a></button>
+
+		
+
+	</div>
+</div>
+		
+		
+		<div id="particles-js"></div>
+			
+	</div>
+			
+	
+		
+	
+	
+	
+		
+	<footer class="foot">
+  	<table class="foot1">
+  		<tr>
+  			<td>
+  				<div class="cols1">
+  					<h2>Rev-Tech Solution</h2>
+
+           <p>Services: Web Development &Designing, Digital Marketing,SEO</p>
+          <ul class="navs2">
+<li><i class="fab fa-facebook-f"></i></li>
+<li><i class="fab fa-twitter"></i></li>
+<li><a href="https://www.instagram.com/revtechsolution"><i class="fab fa-instagram"></i></a></li>
+<li><i class="fab fa-linkedin-in"></i></li>
+
+</ul>
+
+</div>
+  			</td>
+  			<td>
+  				<div class="cols2">
+  					<ul class="navs">
+  						<h2>Company</h2>
+           	
+           	         <li><a href="index.html">Home</a></li>
+					<li><a href="#active">About Us</a></li>
+					<li><a href="Services.html">Services</a></li>
+					<li><a href="Blogs.html">Blogs</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					
+           </ul>
+
+  				</div>
+  			</td>
+  			<td>
+  				<div class="cols3">
+  					<h2>Get In Touch</h2>
+
+
+<p><i class="fa fa-envelope" style="padding-right: 14px;"></i>revatichalkhor961@gmail.com</p>
+
+<p><i class="fa fa-mobile" style="padding-right: 14px;"></i>+91-7972620503</p>
+
+</div>
+  			</td>
+  		</tr>
+  		
+  	</table>
+  	<div class="copyright">
+  		<hr>
+  		Copyright &copy; 2020 Rev-Tech Solution| Powered by Rev-Tech Solution
+  	</div>
+  </footer>
+<script type="text/javascript" src="js/particles.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+	</body>
+	</html>
